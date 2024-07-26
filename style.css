@@ -1,3 +1,8 @@
-body{
-    background-color: rgb(198, 179, 235);
+
+
+#presentacion{
+    min-height: 88vh;
+    display:flex;
+    justify-content: start;
+    align-items: center;
 }
