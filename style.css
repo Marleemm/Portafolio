@@ -1,8 +1,38 @@
-
-
+body{
+    background-color: aliceblue;
+}
 #presentacion{
     min-height: 88vh;
     display:flex;
     justify-content: start;
     align-items: center;
+    background-image: url(imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#proyecto-1 {
+    background-image: url('imagenes/proyecto1.png');
+}
+#proyecto-2 {
+    background-image: url('imagenes/proyecto2.png');
+}
+
+#proyecto-3 {
+    background-image: url('imagenes/proyecto3.png');
+}
+
+.text-black {
+    color: rgb(223, 144, 250);
+}
+
+
+.morado {
+    color: purple;
 }
