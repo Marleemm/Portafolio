@@ -9,7 +9,11 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 [Proyecto Desplegado (https://portafolio-umber-alpha.vercel.app/)](https://portafolio-umber-alpha.vercel.app/)
 
 ## Secciones de mi sitio
-![Presentación](imagenes/readme/1.png)
+![Presentación](Readme/1.png)
+![Habilidades](Readme/2.png)
+![Proyectos](Readme/3.png)
+![Referencias](Readme/4.png)
+![Contacto](Readme/5.png)
 
 ## Tecnologías
 * HTML
@@ -18,4 +22,4 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 * Javascript
 
 ---
-Desarrollado con 🩵 por [Marlem](https://portafolio-umber-alpha.vercel.app/) en [Tecnolochicas Pro](https://tecnolochicas.mx/)
+Desarrollado con 🩷 por [Marlem](https://portafolio-umber-alpha.vercel.app/) en [Tecnolochicas Pro](https://tecnolochicas.mx/)
