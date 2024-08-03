@@ -1,15 +1,16 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 #presentacion{
     min-height: 88vh;
     display:flex;
     justify-content: start;
     align-items: center;
-    background-image: url(imagenes/fondo.jpg);
+   background-color: rgb(185, 157, 174);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
 .proyecto {
@@ -26,13 +27,62 @@ body{
 
 #proyecto-3 {
     background-image: url('imagenes/proyecto3.png');
+    
 }
 
 .text-black {
-    color: rgb(223, 144, 250);
+    color: rgb(0, 0, 0);
 }
 
 
-.morado {
-    color: purple;
+.text-pink {
+    color: rgb(104, 65, 94);
+}
+
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+  }
+
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+  }
+
+  .bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 57px;
+  }
+  
+
+  .photo-me {
+    border-radius: 50%; /* Hace que los bordes de la imagen sean redondeados */
+    object-fit:cover; /*Ajusta la imagen para que cubra el contenedor */
+    width: 300px; /* Asegúrate de que la imagen sea cuadrada para que el radio sea uniforme */
+    height: 300px;
+    display: flex;
+    justify-content: end;
+}
+
+.custom-icon {
+    background-color: pink;
+    border-radius: 50%;
+    width: 60px;  /* Ajusta el tamaño según tus necesidades */
+    height: 60px; /* Ajusta el tamaño según tus necesidades */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Elimina el padding adicional */
+    margin: 2px;
+}
+
+.bg-pink{
+    background-color: pink;
 }

@@ -4,41 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marlem Martinez</title>
+    <title id="titulo">Marlem Martinez</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+
+    <link rel="shortcut icon" href="rosa.webp" type="image/x-icon">
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- FINAL DE FUENTES -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Marlem</a>
+                <a class="navbar-brand lato-light" href="#presentacion">Acerca de mí</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse lato-light" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                            <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Proyectos</a>
+                            <a class="nav-link active" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Testimonios</a>
+                            <a class="nav-link active" href="#testimonios">Referencias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link active" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
@@ -46,25 +67,28 @@
     <main>
 
         <section id="presentacion" class="container-fluid">
-            <div class="container col-xxl-8 px-4 py-5 d-flex">
+            <div class="container col-xxl-8 px-4 py-5 d-flex ">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="col-10 col-sm-8 col-lg-6">
-                        <!-- <img height="300px" width="400px" src="imagenes/im1.jpg" loading=" lazy"> -->
+                    <div class="col-10 col-sm-8 col-lg-6 ">
+                        <img class="photo-me" height="300px" width="400px" src="imagenes/me.jpg" loading=" lazy">
                     </div>
                     <div class="col-lg-6">
-                        <h1 class="display-5 fw-bold text-white lh-1 mb-3">Marlem Martínez
+                        <h1 class="bree-serif-regular text-black">Marlem Martínez
                         </h1>
+                        <h2 id="app" class="lato-bold text-white mb-5">.....
+                        </h2>
 
 
-                        <p class="lead text-black"><b>Desarrolladora Jr en programación con un fuerte enfoque en el
+                        <p class="lato-light text-white "><b>Desarrolladora Jr en programación con un fuerte enfoque en
+                                el
                                 desarrollo
                                 frontend y el análisis de datos. Me encanta aprender cosas nuevas cada día, explorar
                                 tecnologías
-                                emergentes y encontrar soluciones creativas a problemas complejos.❤️💻</b></p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                emergentes y encontrar soluciones creativas a problemas complejos.🩷</b></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
                             <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Contáctame</button>
 
-                            <a class="px-3 py-2 morado"
+                            <a class="px-3 py-2 text-pink"
                                 href="mailto:marlemmartinezc@gmail.com">marlemmartinezc@gmail.com</a>
 
                         </div>
@@ -74,13 +98,13 @@
 
 
         <section class="container px-4 py-5" id="habilidades">
-            <h2 class="pb-2 border-bottom">Habilidades</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <h2 class="pb-2 border-bottom bree-serif-regular">Habilidades</h2>
+            <div class="row g-4 py-5 row-cols-2 row-cols-lg-3">
                 <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-primary px-3 py-2 rounded m-2">
+                    <div class="feature-icon custom-icon ">
                         <i class="bi bi-code-square"></i>
                     </div>
+
                     <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
                     <p>Creadora y aprendiz de sitios web en HTML, CSS y JS. También estoy aprendiendo frameworks de
                         JavaScript como React.Me interesa el diseño UX/UI y la optimización de rendimiento para crear
@@ -88,8 +112,7 @@
                         y eficientes."</p>
                 </div>
                 <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-primary px-3 py-2 rounded m-2">
+                    <div class="feature-icon custom-icon ">
                         <i class="bi bi-clipboard-data-fill"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis">Ciencía de datos</h3>
@@ -97,33 +120,64 @@
                         dplyr y ggplot2 para manipular datos y crear visualizaciones impactantes.</p>
                 </div>
                 <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-primary px-3 py-2 rounded m-2">
+                    <div class="feature-icon custom-icon ">
                         <i class="bi bi-database"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis">Base de datos</h3>
                     <p>Enamorada de las bases de datos, trabajando con MySQL, PostgreSQL y MongoDB. Me enfoco en el
-                        diseño de esquemas, la optimización de consultas y la seguridad de los datos</p>
+                        diseño de esquemas, la optimización de consultas y la seguridad de los datos.</p>
                 </div>
+
+
+
+                <div class="feature col">
+                    <div class="feature-icon custom-icon">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Resilencia</h3>
+                    <p>Soy una persona resiliente y determinante, capaz de enfrentar y superar desafíos con
+                        perseverancia. Mi capacidad para aprender de los obstáculos y encontrar soluciones efectivas me
+                        permite crecer continuamente.</p>
+                </div>
+                <div class="feature col">
+                    <div class="feature-icon custom-icon">
+                        <i class="bi bi-clipboard-data-fill"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Responsable</h3>
+                    <p>Soy una persona responsable y comprometida, enfocada en aprender y mejorar continuamente.</p>
+                </div>
+                <div class="feature col">
+                    <div class="feature-icon custom-icon ">
+                        <i class="bi bi-database"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Trabajo en equipo</h3>
+                    <p>Trabajo bien en equipo, colaborando de manera efectiva y apoyando a mis compañeros para alcanzar
+                        objetivos comunes.</p>
+                </div>
+
             </div>
         </section>
 
         <section class="container px-4 py-5" id="proyectos">
-            <h1 class="display-5 fw-bold text-body-emphasis">Proyectos</h1>
+            <h2 class="pb-2 border-bottom bree-serif-regular">Proyectos</h2>
 
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="row row-cols-2 row-cols-lg-2 align-items-stretch g-4 py-5">
                 <div class="col">
                     <div id="proyecto-1"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" <div
+                        class="proyecto card card-cover h-100 overflow-hidden bg-pink rounded-4 shadow-lg" <div
                         class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
 
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1  text-primary">Clon de google</h3>
+                        <h3 class="pt-5 mt-5 mb-6 display-6 lh-1 text-center bree-serif-regular text-pink">Clon de
+                            google</h3>
 
 
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
 
-                                <a class="link-primary" href="" target="_blank">DA CLICK</a>
+                                <a class="link-dark text-center fs-2" href="https://clon-google-zeta.vercel.app/"
+                                    target="_blank">
+                                    <i class="bi bi-arrow-right-circle-fill"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -131,36 +185,36 @@
 
                 <div class="col">
                     <div id="proyecto-2"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" <div
+                        class="proyecto card card-cover h-100 overflow-hidden bg-pink rounded-4 shadow-lg " <div
                         class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1  text-white">Lobobienestar</h3>
-
+                        <h3 class="pt-5 mt-5 mb-6 display-6 lh-1 text-center bree-serif-regular text-pink">App de
+                            realidad aumentada</h3>
 
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
-
-                                <a class="link-light" href="" target="_blank">DA CLICK</a>
+                                <a class="link-dark text-center fs-2" href="" target="_blank"><i
+                                        class="bi bi-arrow-right-circle-fill"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
                 <div class="col">
                     <div id="proyecto-3"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" <div
+                        class="proyecto card card-cover h-100 overflow-hidden bg-pink rounded-4 shadow-lg " <div
                         class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1  text-white">Hackathon 5 de mayo</h3>
-
+                        <h3 class="pt-5 mt-5 mb-6 display-6 lh-1 text-center bree-serif-regular text-pink">
+                            Investigaciones a través de blockchain.</h3>
 
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
-
-                                <a class="link-light" href="" target="_blank">DA CLICK</a>
+                                <a class="link-dark  fs-2" href="https://github.com/Marleemm/ETHCincoDeMay0.git"
+                                    target="_blank"><i class="bi bi-arrow-right-circle-fill"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
             </div>
 
 
@@ -168,7 +222,7 @@
         </section>
 
         <section id="testimonios">
-            <h2 class="text-center"><b>Testimonios</b></h2>
+            <h3 class="text-center bree-serif-regular"><b>Testimonios</b></h3>
 
             <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
 
@@ -187,15 +241,20 @@
                     <!-- Hace que se vea el carrusel -->
                     <div class="carousel-item active">
                         <article class="container py-5 text-center px-5">
-                            <img class="rounded-5" src="imagenes/im2.jpg" height="300" alt="person1">
+                            <img class="rounded-5" src="imagenes/persona1.jpg" height="200" alt="person1">
                             <h3>Hugo Jesus Guevara Cocolotl</h3>
-                            <p>blablaaaaaa</p>
+                            <p>Trabajar con Marlem es saber que podras trabajar de una forma eficiente y con muy buenos
+                                resultados,colaboramos juntos para la realizacion de una aplicacion movil con uso de
+                                Realidad aumentada lo cual significo un reto para el equipo,ella siempre tuvo una
+                                maravillosa actitud para buscar soluciones parar resolver los problemas que nos
+                                encontrabamos e hizo un gran trabajo con los diseños y usabilidad de la aplicacion.Sin
+                                duda este proyecto no se hubiera sido lo que es sin su ayuda.</p>
                         </article>
                     </div>
 
                     <div class="carousel-item">
                         <article class="container py-5 text-center px-5">
-                            <img class="rounded-5" src="imagenes/persona2.jpeg" height="300" alt="person2">
+                            <img class="rounded-5 border-radius" src="imagenes/persona2.jpg" height="200" alt="person2">
                             <h3>Mercy Morales Gonzalez</h3>
                             <p>Trabajar con Marlem fue una experiencia bastante fascinante. A pesar de los obstáculos
                                 que presentaba el proyecto de crear una calculadora con funciones más allá de las cuatro
@@ -209,9 +268,16 @@
 
                     <div class="carousel-item">
                         <article class="container py-5 text-center px-5">
-                            <img class="rounded-5" src="imagenes/im2.jpg" height="300" alt="person3">
-                            <h3>--------------</h3>
-                            <p>blablaaaaaa</p>
+                            <img class="rounded-5" src="imagenes/persona2.jpg" height="200" alt="person3">
+                            <h3>Dra. Yolanda Moyao Martínez</h3>
+                            <p>Trabajar con Marlem ha sido una experiencia excepcional. Desde el primer momento,
+                                demostró un profundo conocimiento en desarrollo de aplicaciones y diseño web. Durante el
+                                proyecto de Lobobienestar, Marlem mostró habilidades sobresalientes en el desarrollo de
+                                software, diseño UX, y gestión de proyectos. Su dedicación y creatividad fueron clave
+                                para el funcionamiento del proyecto, especialmente en la implementación de realidad
+                                aumentada y
+                                la creación de prototipos en Canvas y modelos en Blender.
+                            </p>
                         </article>
                     </div>
 
@@ -233,34 +299,58 @@
 
         </section>
 
-
-
     </main>
 
 
 
-
-    <footer id="contacto" class="container">
-        <div class="py-3 my-4">
+    <!-- PARA PONERLO DARK data-bs-ride="dark" -->
+    <footer id="contacto" class="container-fluid  bg-dark" data-bs-theme="dark">
+        <div class="py-3">
+            <div class="text-center text-body-secondary fs-3">
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <h4 id="frase" class="text-center text-body-secondary mt-3 ">"Persistir y nunca desistir"
+            </h4>
+            <!-- mt margin top arriba -->
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" _msttexthash="59059"
-                        _msthash="14">Hogar</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" _msttexthash="136006"
-                        _msthash="15">Funciones</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" _msttexthash="95589"
-                        _msthash="16">Precios</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" _msttexthash="425438"
-                        _msthash="17">Preguntas frecuentes</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" _msttexthash="107419"
-                        _msthash="18">Acerca de</a></li>
+                <li class="nav-item">
+                    <a href="https://x.com/MarlemmMC" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-twitter-x fs-2"></i>
+                        <!-- fs para tamaños -->
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://github.com/Marleemm" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-github fs-2"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/marlem-mart%C3%ADnez-castillo-b7a8792aa/" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-linkedin fs-2"></i>
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="mailto:marlemmartinezc@gmail.com" target="_blank"
+                        class="nav-link px-2 text-body-secondary fs-2">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </li>
             </ul>
-            <p class="text-center text-body-secondary" _msttexthash="356304" _msthash="19">© 2024 Compañía, Inc</p>
+            <p class="text-center text-body-secondary" _msttexthash="356304" _msthash="19">© 2024 Marlem, TECNOLOCHICAS
+                PRO</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
