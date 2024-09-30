@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+#presentacion{
+    min-height: 88vh;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+   background-color: rgb(185, 157, 174);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#proyecto-1 {
+    background-image: url('imagenes/p2.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100%; 
+    min-height: 300px; 
+}
+
+#proyecto-2 {
+    background-image: url('imagenes/p1.jpeg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100%; 
+    min-height: 300px; 
+}
+
+#proyecto-3 {
+    background-image: url('imagenes/proyecto1.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100%; 
+    min-height: 300px; 
+    
+}
+
+#proyecto-4 {
+    background-image: url('imagenes/p4.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100%; 
+    min-height: 300px; 
+    
+}
+
+
+#proyecto-5{
+    background-image: url('imagenes/proyecto2.png');
+    background-size: 50%; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 50%; 
+    min-height: 300px; 
+    
+}
+
+.text-black {
+    color: rgb(0, 0, 0);
+}
+
+
+.text-pink {
+    color: rgb(104, 65, 94);
+}
+
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+  }
+
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+  }
+
+  .bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 57px;
+  }
+  
+
+  .photo-me {
+    border-radius: 50%; /* Hace que los bordes de la imagen sean redondeados */
+    object-fit:cover; /*Ajusta la imagen para que cubra el contenedor */
+    width: 300px; /* Asegúrate de que la imagen sea cuadrada para que el radio sea uniforme */
+    height: 300px;
+    display: flex;
+    justify-content: end;
+}
+
+.custom-icon {
+    background-color: pink;
+    border-radius: 50%;
+    width: 60px;  /* Ajusta el tamaño según tus necesidades */
+    height: 60px; /* Ajusta el tamaño según tus necesidades */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Elimina el padding adicional */
+    margin: 2px;
+}
+
+.bg-pink{
+    background-color: pink;
+}
