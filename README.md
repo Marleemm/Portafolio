@@ -1,4 +1,4 @@
-# Portafolio de habilidades TECNOLOCHICAS PRO
+# Portafolio de habilidades 💻
 
 El presente proyecto es un portafolio desarrollado para poner en práctica las habilidades obtenidad dentro del bootcamp de desarrollo frontend de Technolochicas PRO.
 
@@ -9,11 +9,11 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 [Proyecto Desplegado (https://portafolio-umber-alpha.vercel.app/)](https://portafolio-umber-alpha.vercel.app/)
 
 ## Secciones de mi sitio
-![Presentación](readme/1.png)
-![Habilidades](readme/2.png)
-![Proyectos](readme/3.png)
-![Referencias](readme/4.png)
-![Contacto](readme/5.png)
+![Presentación](Readme/1.png)
+![Habilidades](Readme/3.png)
+![Proyectos](Readme/2.png)
+![Referencias](Readme/4.png)
+![Contacto](Readme/5.png)
 
 ## Tecnologías
 * HTML
